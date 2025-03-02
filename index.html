@@ -109,7 +109,7 @@
     </footer>
 
     <script>
-        const API_KEY = 'eyJraWQiOiI5NzIxYmUzNi1iMjcwLTQ5ZDUtOTc1Ni05ZDU5N2M4NmIwNTEiLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJhdXRoLXNlcnZpY2UtM2NhNTgxZjctYzQwNy00YmRhLTljZGMtNzJlMzY1MWEwMjJjIiwiYXVkIjoiNDc4NDY2OTU2MDAwMTAxIiwibmJmIjoxNzQwNzcwOTk5LCJzY29wZSI6WyJiMmItYXBpLmdlbl9haSIsImIyYi1hcGkuaW1hZ2VfYXBpIl0sImlzcyI6Imh0dHBzOi8vYXBpLnBpY3NhcnQuY29tL3Rva2VuLXNlcnZpY2UiLCJvd25lcklkIjoiNDc4NDY2OTU2MDAwMTAxIiwiaWF0IjoxNzQwNzcwOTk5LCJqdGkiOiI5OTZmMTZmYy04N2I0LTQwM2YtYTJlZC05ZGIwYmI3NmNlMWUifQ.gGFFfP7Sg8qdQZpdlIQbDBj-0zk1TToKAPzseSLH24LMRG8gVSlyHWN0uY5hHt50d55_9Dj74PMGjKqgetattSJirg7VWILlkYg2lK8UTYWk4dks7rc9fCcywjlyd8j_rxTSE-y0qvzvh_e7I9MsVAObGX0ky13oD7nGBhCUHngNDRSxg5I4BimOr4h6aJITZAiXGxTvZ9pdrQBRWdiYdrvi8f5oBm5ItRhgNTpD0MEsiG_QGScQlOihZ0JmKOaayVXiSmOMwKaO3MqNiE2eB7e8otjUfX4o_HGi93u2Lu_5q1Q7uZlRf6sYKv_0vXY8bVmVyEFzLZ1a7BMQHcLjTw';
+        
         const imageInput = document.getElementById('imageInput');
         const originalPreview = document.getElementById('originalPreview');
         const enhancedPreview = document.getElementById('enhancedPreview');
@@ -137,7 +137,7 @@
                     method: 'POST',
                     headers: {
                         'Accept': 'application/json',
-                        'X-Picsart-API-Key': API_KEY
+                        'X-Picsart-API-Key': 'YOUR_API_KEY'
                     },
                     body: formData
                 });
